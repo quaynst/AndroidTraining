@@ -19,7 +19,7 @@
             android:background="#ffffff"
             android:src="@drawable/ic_launcher" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -27,15 +27,17 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
                 android:background="#ff9630" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
                 android:background="#ffedc6" />
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 </FrameLayout>
